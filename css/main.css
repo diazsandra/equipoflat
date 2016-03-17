@@ -1,0 +1,407 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+/* Etiquetas Sandra*/
+
+
+body {
+	font-family: 'Roboto' !important, sans-serif;
+	background: #f5f5f5;
+}
+
+#tituloblog {
+  padding-top: 80px;
+  color: white;
+  font-weight: 300;
+}
+
+
+section {
+	padding: 50px 0;
+	margin: 0;
+}
+
+#tituloblog h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.navbar-inverse  {
+  background-color: #2c3e50 !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #2C3450 !important ;
+}
+
+.white {
+  color: #fff;
+}
+
+.bggreen {
+  background-color: #2ecc71;
+}
+
+ul.boton1 {
+  margin: 20px 0 0;
+  background: transparent;
+  list-style: none;
+}
+ul.boton1 > li {
+  text-shadow: none;
+}
+ul.boton1 > li > a,
+ul.boton1 > li .divider {
+  color: #fff;
+}
+ul.boton1 > li.active {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.blog {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.blog {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.blog h3 {
+  margin-top: 0;
+}
+
+.blog .smallicon > span {
+  display: inline-block;
+  color: #999;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.blog .smallicon > span a {
+  color: #999;
+}
+
+.mgb30 {
+  margin-bottom: 30px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ li {
+	margin-right: 5px;
+}
+
+.flecha :before{content:"\f105";}
+}
+
+ul .cloud  {
+	list-style: none;
+}
+
+.cloud li {
+	display: inline-block;
+	margin-bottom: 2%;
+}
+
+/* Facebook */
+
+.fbimg {
+	width: 100%;
+	border-radius: 8px 8px 0 0;
+}
+
+.pdt10 {
+	padding: 5%;
+}
+
+.pdt3 {
+	padding: 3%;
+}
+
+.blogblue {
+	color: #34495e; 
+}
+
+a:hover,
+a:focus {
+  color: #d9534f;
+  text-decoration: none;
+  outline: none;
+}
+
+.br0 {
+	border: 0;
+}
+
+.pdtl {
+	padding-left: 10%;
+}
+
+.textarea {
+	height: 60px;
+}
+
+/* Terminan clases Sandra */
+
+
+/* CLASES GABY*/
+
+ #fondo {
+ width: 100%;
+ height: 520px;
+  background-image: url("../images/slider/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.txt-white{
+  color:#FFF;
+  }
+
+  .quote{
+  position: relative;
+  top:14em;
+}
+
+h2{
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.iconf,
+.text{
+  float:left;
+}
+
+.iconf{
+  padding: 2%;
+  width: 16%;
+  margin-top:22px;
+  font-size: 50px;
+}
+.text{
+  width: 84%;
+  padding-left: 2%;
+}
+
+.bg{
+  font-size: 2.5em;
+  border-radius: 100%;
+  color: white;
+  background-color: rgba(0, 51, 0, 0.4);
+  text-align: center;
+}
+
+.margen{
+  margin-top: -10%;
+
+}
+
+/* Portafolio*/
+
+.foto-tama,
+.foto-filtro {
+  list-style: none;
+  padding: 0;
+  margin: 0 -10px 10px 0;
+}
+.foto-filte > li {
+  display: inline-block;
+}
+.foto-tama> li {
+  float: left;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.foto-tama.col-3 > li {
+  width: 32%;
+}
+
+.foto-tama {
+  padding: 0;
+  margin: 0;
+}
+.foto-tama .item-inner {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 10px 10px 0;
+  margin: 0 20px 20px 0;
+  position: relative;
+}
+.foto-tama img {
+  width: 100%;
+}
+.foto-tama h5 {
+  background: #fff;
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: #2c3e50;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.foto-tama .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+.foto-tama .overlay .preview {
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  margin-top: -20px;
+}
+.foto-tama:hover .overlay {
+  opacity: 1;
+}
+/*  terminan clases Portafolio*/
+
+/*  terminan clases   Gabs*/
+
+
+/*  clases  Naye*/
+
+#team h2 {
+  text-align: center;
+}
+#team p{
+  text-align: center;
+} 
+#foto_team{
+  text-align: center;
+  margin-top: 3%;
+}
+#foto_team span{
+  color: gray;
+  font-size: 80%;
+}
+.boton_red{
+  border-radius: 100%;
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  color: white;
+}
+.boton-face{
+  background-color: #4f7dd4;
+}
+.boton-googlep{
+  background-color: #dc422b;
+}
+.boton-twitter{
+  background-color: #5bceff;
+}
+.boton-link{
+  background-color: #21a6d8;
+}
+
+#footer{
+	 padding-top: 30px;
+  padding-bottom: 30px;
+  color: #bdc3c7;
+}
+.backfoot{
+	background-color: #2c3e50; 
+}
+#footer ul > li{
+	display: inline-block !important;
+	margin-left: 15px;
+}
+#services h2{
+	text-align: center;
+}
+#services p{
+	text-align: center;
+}
+.backicon{
+	font-size: 36px;
+    height: 2em;
+    width: 2em;
+    color: white;
+    margin-right: 10px;
+    padding-top: 20%;
+    background-color: #A4A4A4;
+    padding-left: 25%;
+    display: block;
+    border-radius: 100%;
+}
+#iconos p{
+	text-align: initial;
+}
+#iconos{
+	margin-top: 5%;
+}
+#cli_say  p{
+	font-size: 1.2em !important;
+}
+#block{
+	border-left: none;
+}
+#clients_say h2{
+	margin-top: 3%;
+}
+#clients_say p{
+	margin-top: 3%;
+}
+blockquote{
+	margin-top: 5%;
+}
+.list_company{
+	list-style-type: circle !important;
+}
+
+.back_company{
+	background-color: #34495a;
+	color: white;
+}
+ul.list_company li a{
+	content: "\f105";
+	text-decoration: none;
+	color: white !important;
+}
+
+
+
